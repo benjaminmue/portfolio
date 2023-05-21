@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Kontakt">
+    <meta name="author" content="Benjamin Müller">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BEBAMU - Portfolio - Kontakt</title>
+
+    <link href="style/stylesheet.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <!-- Navigation für Desktop -->
+        <div id="desk-nav" class="topnav">
+            <a class="inactive" href="index.html">Home</a>
+            <a class="inactive">|</a>
+            <a class="inactive" href="ausbildung.html">Ausbildung</a>
+            <a class="inactive">|</a>
+            <a class="inactive" href="anstellungen.html">Anstellungen</a>
+            <a class="inactive">|</a>
+            <a class="active" href="kontakt.html">Kontakt</a>
+            <a class="inactive">|</a>
+            <a class="inactive" href="lernjournal.html">Lernjournal</a>
+        </div>
+        <!-- Navigation für Mobile -->
+        <div id="mobile-nav" class="topnav">
+            <a href="kontakt.html" class="active">Datenschutz</a>
+            <!-- Navigation links (standardmässig versteckt) -->
+            <div id="nav-links">
+                <a class="inactive" href="index.html">Home</a>
+                <a class="inactive" href="ausbildung.html">Ausbildung</a>
+                <a class="inactive" href="anstellungen.html">Anstellungen</a>
+                <a class="active" href="kontakt.html">Kontakt</a>
+                <a class="inactive" href="lernjournal.html">Lernjournal</a>
+            </div>
+            <!-- Hamburger menu links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="content_border">
+            <div class="content">
+                <div class="title">
+                    <h1>Kontakt</h1>
+                </div>
+                <hr class="divider_style1">
+                <div class="article_2colmap">
+                    <div class="article_text">
+                        <div class="contact-form">
+                            <h1>Kontaktformular</h1>
+                        <form method="post" action="mailto:mail@bebamu.ch" name="kontaktformular">
+
+                            <label for="firma">Firma</label><br />
+                            <input type="text" name="firma" id="firma" value="" />
+                            <br />
+
+                            <label for="anrede">Anrede</label><br />
+                            <select name="anrede" id="anrede">
+                                <option value="">Bitte wählen</option>
+                                <option value="Frau">Frau</option>
+                                <option value="Herr">Herr</option>
+                                <option value="Anderes">Anderes</option>
+                            </select>
+                            <br />
+
+                            <label for="vorname">Vorname</label><br />
+                            <input type="text" name="vorname" id="vorname" value="" />
+                            <br />
+
+                            <label for="nachname">Nachname</label><br />
+                            <input type="text" name="nachname" id="nachname" value="" />
+                            <br />
+
+                            <label for="adresse">Adresse</label><br />
+                            <input type="text" name="adresse" id="adresse" value="" />
+                            <br />
+
+                            <label for="plz">PLZ</label><br />
+                            <input type="text" name="plz" id="plz" value="" />
+                            <br />
+
+                            <label for="ort">Ort</label><br />
+                            <input type="text" name="ort" id="ort" value="" />
+                            <br />
+
+                            <label for="email">E-Mail</label><br />
+                            <input type="email" name="email" id="email" value="" />
+                            <br />
+
+                            <label for="mitteilung">Mitteilung</label><br />
+                            <textarea name="mitteilung" id="mitteilung">Bitte füllen Sie hier aus ...</textarea>
+                            <br />
+
+                            <label class="labelcheckbox" for="dsgvo">DSGVO</label><br />
+                            <input name="dsgvo" id="dsgvo" type="checkbox" value="ja" />Ich akzeptiere die <a target="_blank	" href="datenschutz.html">Datenschutzrichtlinien</a>
+                            <br />
+
+                            <input type="submit" name="submit" value="Absenden" />
+
+                        </form>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d673.0837795575507!2d7.57157132926727!3d47.56126779869885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b905aefbf5a1%3A0x55b850a1c6775acc!2sHagentalerstrasse%2011%2C%204055%20Basel!5e0!3m2!1sde!2sch!4v1616685544776!5m2!1sde!2sch"
+                                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <hr class="divider_style1">
+                    </div>
+                    <hr class="divider_style1">
+                </div>
+            </div>
+        </div>
+        <div class="bottombar">
+            <footer>
+                <p>Designed by Benjamin in Basel <img src="media/bs_wappen.png" alt="Wappen Basel-Stadt" id="wappen">
+                </p>
+                <p class="footerFont"><a href="impressum.html">Impressum</a>&nbsp;|&nbsp;<a
+                        href="datenschutz.html">Datenschutzerklärung</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

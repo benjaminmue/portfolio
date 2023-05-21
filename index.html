@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Home">
+    <meta name="author" content="Benjamin Müller">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BEBAMU - Portfolio - Home</title>
+
+    <link href="style/stylesheet.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="page">
+        <!-- Navigation für Desktop -->
+        <div id="desk-nav" class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a class="inactive">|</a>
+            <a class="inactive" href="ausbildung.html">Ausbildung</a>
+            <a class="inactive">|</a>
+            <a class="inactive" href="anstellungen.html">Anstellungen</a>
+            <a class="inactive">|</a>
+            <a class="inactive" href="kontakt.html">Kontakt</a>
+            <a class="inactive">|</a>
+            <a class="inactive" href="lernjournal.html">Lernjournal</a>
+        </div>
+        <!-- Navigation für Mobile -->
+        <div id="mobile-nav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="nav-links">
+                <a class="inactive" href="ausbildung.html">Ausbildung</a>
+                <a class="inactive" href="anstellungen.html">Anstellungen</a>
+                <a class="inactive" href="kontakt.html">Kontakt</a>
+                <a class="inactive" href="lernjournal.html">Lernjournal</a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="content_border">
+            <div class="content">
+                <div class="breaker_1">
+                    <div class="img_title_box">
+                        <div class="img_title">
+                            <h1>Benjamin Müller</h1>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider_style1">
+                <div class="title">
+                    <h1>Wer bin ich?</h1>
+                </div>
+                <hr class="divider_style1">
+                <div class="article_2col">
+                    <div class="article_text">
+                        <p>
+                            Ich bin ein meist aufgestellter Informatiker in der Region Basel. Mit Erfahrungen im Clientengineering Bereich, 1st/2nd Level Support und Backups, um ein paar wenige zu nennen, ist mein Wissen ziemlich breit gefächert. 
+                        </p>
+                    </div>
+                    <div>
+                        <img class="profile_img" src="/media/profile_image.jpg" alt="Profil Image Benjamin Müller">
+                    </div>
+                    <hr class="divider_style1">
+                </div>
+                <div class="breaker_3">
+                    <div class="img_title_box">
+                        <div class="img_title">
+                            <h1>Fähigkeiten</h1>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider_style1">
+                <!-- stats = alle Kreise, % Beschriftungen und Text rechts daneben. -->
+                <div class="stats">
+                    <!-- fact = ein Kreis, % Beschriftung und Text rechts daneben -->
+                    <div class="fact">
+                        <!-- fact-chart = nur der Kreis und dessen % Beschriftung -->
+                        <div class="fact-chart">
+                            <!-- circle-chart = nur der Kreis -->
+                            <svg class="circle-chart" viewbox="0 0 30 30" width="80" height="80"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#2F4858" stroke-width="4" fill="none"
+                                    cx="15" cy="15" r="13" />
+                                <circle class="circle-chart__circle" stroke="#DC266B" stroke-width="4"
+                                    stroke-dasharray="73,51326809,100" stroke-linecap="round" fill="none" cx="15"
+                                    cy="15" r="13" />
+                                <!-- chart-text = nur die % Beschriftung -->
+                                <g class="chart-text">
+                                    <text x="50%" y="50%" class="chart-number">90%</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <!-- fact-text = nur der text rechts neben dem Kreis -->
+                        <div class="fact-text">Windows 10 <br>Erweiterte Fähigkeiten</div>
+                    </div>
+                    <div class="fact">
+                        <div class="fact-chart">
+                            <svg class="circle-chart" viewbox="0 0 30 30" width="80" height="80"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#2F4858" stroke-width="4" fill="none"
+                                    cx="15" cy="15" r="13" />
+                                <circle class="circle-chart__circle" stroke="#DC266B" stroke-width="4"
+                                    stroke-dasharray="65.34512719,100" stroke-linecap="round" fill="none" cx="15"
+                                    cy="15" r="13" />
+                                <g class="chart-text">
+                                    <text x="50%" y="50%" class="chart-number">80%</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="fact-text">MacOS: <br>Grundlegende Fähigkeiten</div>
+                    </div>
+                    <div class="fact">
+                        <div class="fact-chart">
+                            <svg class="circle-chart" viewbox="0 0 30 30" width="80" height="80"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#2F4858" stroke-width="4" fill="none"
+                                    cx="15" cy="15" r="13" />
+                                <circle class="circle-chart__circle" stroke="#DC266B" stroke-width="4"
+                                    stroke-dasharray="40.8407045,100" stroke-linecap="round" fill="none" cx="15" cy="15"
+                                    r="13" />
+                                <g class="chart-text">
+                                    <text x="50%" y="50%" class="chart-number">50%</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="fact-text">M365: <br>Vertraut in der Oberfläche und grundelegende Einstellungen
+                        </div>
+                    </div>
+                    <div class="fact">
+                        <div class="fact-chart">
+                            <svg class="circle-chart" viewbox="0 0 30 30" width="80" height="80"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#2F4858" stroke-width="4" fill="none"
+                                    cx="15" cy="15" r="13" />
+                                <circle class="circle-chart__circle" stroke="#DC266B" stroke-width="4"
+                                    stroke-dasharray="57.1769863,100" stroke-linecap="round" fill="none" cx="15" cy="15"
+                                    r="13" />
+                                <g class="chart-text">
+                                    <text x="50%" y="50%" class="chart-number">70%</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="fact-text">Windows Server: <br>Vertraut</div>
+                    </div>
+                    <div class="fact">
+                        <div class="fact-chart">
+                            <svg class="circle-chart" viewbox="0 0 30 30" width="80" height="80"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#2F4858" stroke-width="4" fill="none"
+                                    cx="15" cy="15" r="13" />
+                                <circle class="circle-chart__circle" stroke="#DC266B" stroke-width="4"
+                                    stroke-dasharray="49.0088454,100" stroke-linecap="round" fill="none" cx="15" cy="15"
+                                    r="13" />
+                                <g class="chart-text">
+                                    <text x="50%" y="50%" class="chart-number">60%</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="fact-text">DNS, DHCP, GPO <br>Grundlegende Einstellungen</div>
+                    </div>
+                    <div class="fact">
+                        <div class="fact-chart">
+                            <svg class="circle-chart" viewbox="0 0 30 30" width="80" height="80"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" stroke="#2F4858" stroke-width="4" fill="none"
+                                    cx="15" cy="15" r="13" />
+                                <circle class="circle-chart__circle" stroke="#DC266B" stroke-width="4"
+                                    stroke-dasharray="73,51326809,100" stroke-linecap="round" fill="none" cx="15"
+                                    cy="15" r="13" />
+                                <g class="chart-text">
+                                    <text x="50%" y="50%" class="chart-number">90%</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="fact-text">MS Word, Excel, PowerPoint <br>Erweiterte Einstellungen bekannt</div>
+                    </div>
+                </div>
+                <p>*Diese Daten basieren auf eigenen Einschätzungen</p>
+                <div class="article">
+                    <hr class="divider_style1">
+                    <p>
+                        Weitere Fähigkeiten sind bekannt und können gerne bei einem persönlichen Gespräch belegt werden.
+                    </p>
+                    <hr class="divider_style1">
+                </div>
+                <div class="breaker_2">
+                    <div class="img_title_box">
+                        <div class="img_title">
+                            <h1>Bildergalerie</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <hr class="divider_style1">
+                    <ul id="navi">
+                        <li>
+                            <a id="bild1" href="#">
+                            <img alt="Ich" src="/media/bild1.jpg" />
+                            <span><strong>Ich</strong></span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a id="bild2" href="#">
+                            <img alt="Natur" src="/media/bild2.jpg" />
+                            <span><strong>Natur</strong></span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a id="bild3" href="#">
+                            <img alt="Familie" src="img/bild3.jpg" />
+                            <span><strong>Familie</strong></span>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a id="bild4" href="#">
+                            <img alt="Schnee" src="img/bild4.jpg" />
+                            <span><strong>Schnee</strong></span>
+                            </a>
+                        </li>
+                    </ul>
+                    
+                    <p id="preview">
+                    Bewegen Sie den Cursor über die kleine Abbildungen!
+                    </p>
+                    
+                    <div style="clear:both"></div>
+                    <hr class="divider_style1">
+                </div>
+                <div class="breaker_3">
+                    <div class="img_title_box">
+                        <div class="img_title">
+                            <h1>Motivivationsschreiben</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="article">
+                    <hr class="divider_style1">
+                    <h3>Bewerbung für die Stelle als Supporter / System-Administrator</h3>
+                    <p>
+                        Sehr geehrte Frau XXX, sehr geehrter Herr XXX <br><br>
+
+                        Auf der Suche nach einer neuen Herausforderung bin ich durch einen Bekannten auf die
+                        ausgeschriebene Stelle als Supporter / System-Administrator gestossen. <br> <br>
+
+                        Während meiner Ausbildung bei der Actelion Pharmaceuticals Ltd. war ich im Infrastruktur- und
+                        Operations-Team (eWorkplace) integriert, wo ich 2 Jahre lang umfangreiche Kenntnisse über
+                        verschiedene Systeme und Dienstleitungen erworben habe. <br> <br>
+
+                        Nach Abschluss meines Arbeitsverhältnisses bei Actelion habe ich eine Stelle bei einem
+                        IT-Dienstleister angefangen. Hier bin ich zuständig für die tägliche Abwicklung aktueller
+                        Kundenaufträge, welche telefonisch oder über das Ticketsystem eintreffen. Ich arbeite primär mit
+                        Windows und supporte verschiedene Dienste, wie z.B. Microsoft AD, Exchange, Microsoft 365,
+                        Acronis und Veeam Backup, ESX, Mobile Devices Management für Schulen und die Grundinstallation
+                        neuer Kundenrechner. <br> <br>
+
+                        Derzeit bin ich im zweiten Jahr meiner Ausbildung zum Dipl. Techniker HF Informatik an der
+                        HF-ICT welche ich im Januar 2023 abschliessen werde. Aufgrund dieser Ausbildung habe ich mein
+                        Arbeitspensum auf 80% reduziert. Die Stelle ist zwar für ein 100% Pensum, doch möchte ich, wenn
+                        immer möglich, diese Ausbildung erfolgreich zu Ende führen. Ich bitte Sie deshalb, die
+                        Möglichkeit eines temporär reduzierten Arbeitspensums zu prüfen. Ich bin sicher, dass ich diese
+                        zusätzlichen Kenntnisse bei Ihnen gut einsetzen kann <br> <br>
+
+
+                        Den stetigen Wandel im System Engineering verfolge ich seit den ersten Berührungspunkten in
+                        meiner Ausbildung mit grösstem Interesse. Meine Fähigkeit schnell Neues zu lernen und zu
+                        verstehen, um Systeme vollumfänglich verwalten und administrieren zu können, wie auch mein
+                        grosses technisches Interesse, machen mich zu Ihrem Top-Kandidaten. <br> <br>
+
+
+                        Ich bin überzeugt, mit meiner Erfahrung und Know-how auf verschiedenen Plattformen, ein
+                        integraler Bestandteil Ihres Teams werden zu können. Gerne werde ich Ihnen bei einem
+                        persönlichen Vorstellungsgespräch näheres zu meiner Person erzählen und Sie überzeugen, dass ich
+                        Ihre Anforderungen erfüllen kann.
+                    </p>
+                    <hr class="divider_style1">
+                </div>
+                <div class="breaker_4">
+                    <div class="img_title_box">
+                        <div class="img_title">
+                            <h1>Lorem ipsum Text</h1>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider_style1">
+                <div class="article">
+                    <p>
+                        Einfach ein Lorem ipsum Text <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus velit, pulvinar mollis
+                        hendrerit eu, blandit at turpis. Nulla sed urna a dolor commodo consectetur. Ut scelerisque
+                        tincidunt aliquam. Donec quis ultricies lacus. Duis semper turpis magna, sed elementum nisi
+                        semper sit amet. Nunc placerat risus ante, eget sollicitudin lacus ullamcorper eget. Fusce
+                        dictum accumsan porttitor.
+                    </p>
+                    <hr class="divider_style1">
+                </div>
+            </div>
+        </div>
+        <div class="bottombar">
+            <footer>
+                <p>Designed by Benjamin in Basel <img src="media/bs_wappen.png" alt="Wappen Basel-Stadt" id="wappen">
+                </p>
+                <p class="footerFont"><a href="impressum.html">Impressum</a>&nbsp;|&nbsp;<a
+                        href="datenschutz.html">Datenschutzerklärung</a></p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
